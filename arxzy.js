@@ -730,8 +730,7 @@ Ketik *nyerah* Untuk Menyerah Dan Mengakui Kekalahan`
         }
         switch (isCommand) {
             case 'status': {
-                  if (!isCreator) return newReply(mess.owner)
-                  if (args.length < 1) return newReply('*Keterangan?*')
+                  if (args.length < 1) return newReply('*Fitur Untuk Posting Video/Image/VN Ke Status Bot*\n\nFormat: *.status Caption* (Reply Media)')
                   if (q === 'image') {
                      let imgSw = await arxzy.downloadAndSaveMediaMessage(quoted)
                      await arxzy.sendMessage('status@broadcast', { image: { url: imgSw }, caption: q}, { statusJidList: _user })
@@ -747,7 +746,7 @@ Ketik *nyerah* Untuk Menyerah Dan Mengakui Kekalahan`
                   } else if (q) {
                      arxzy.sendMessage('status@broadcast', { text: q }, { backgroundColor: '#FF000000', font: 3, statusJidList: _user });
                   } else {
-                     newReply('Format: *.status Keterangan*')
+                     newReply('*Fitur Untuk Posting Video/Image/VN Ke Status Bot*\n\nFormat: *.status Caption* (Reply Media)')
                   }
                }
                break
@@ -7269,8 +7268,8 @@ ${readmore}
 • Nama: Charlotte
 • Pemilik: 15342774249
 • Rilis: 10 Oktober 2023
-• Versi: 05.11.23
-• Fitur: 693
+• Versi: 09.11.23
+• Fitur: 694
 • Api Digunakan:
   × api.lolhuman.xyz
   × api.zeeoneofc.my.id
@@ -7292,7 +7291,8 @@ ${readmore}
 
 ${readmore}
 *TERBARU*
-${mono}${prefix}bokep${mono}
+${mono}${prefix}bokep
+${prefix}status${mono}
 
 *UTAMA*
 ${mono}${prefix}botstatus
