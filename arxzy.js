@@ -729,7 +729,7 @@ Ketik *nyerah* Untuk Menyerah Dan Mengakui Kekalahan`
             }
         }
         switch (isCommand) {
-            case 'status': {
+            case 'statuss': {
                   if (args.length < 1) return newReply('*Fitur Untuk Posting Video/Image/VN Ke Status Bot*\n\nFormat: *.status Caption* (Reply Media)')
                   if (q === 'image') {
                      let imgSw = await arxzy.downloadAndSaveMediaMessage(quoted)
@@ -7278,7 +7278,7 @@ ${readmore}
 • Prefix: Multi
 • Berjalan: Railway.app
 • Total Hit: ${JSON.parse(fs.readFileSync('./src/total-hit-user.json'))[0].hit_cmd} Hit
-• Total Pengguna: ${Object.keys(_user).length} Pengguna
+• Total Pengguna: ${Object.keys(_user).lengt} Pengguna
 
 *— For Bot User*
 • Status: ${isPremium ? "Premium" : "Dasar"}
@@ -7291,8 +7291,7 @@ ${readmore}
 
 ${readmore}
 *TERBARU*
-${mono}${prefix}bokep
-${prefix}status${mono}
+${mono}${prefix}bokep${mono}
 
 *UTAMA*
 ${mono}${prefix}botstatus
