@@ -2316,6 +2316,20 @@ break
                     quoted: m
                 })
                 break
+                case 'tiktok2':
+            case 'ttdl2':
+                if (!q) return newReply('Format: *.tiktok2 Tautan*')
+                let e = await fetchJson(`https://api.lolhuman.xyz/api/tiktok2?apikey=${lol}&url=${q}`)
+                let ee = `*DOWNLOADER TIKTOK*\n\nPencipta: *${e.result.author.username} Atau ${e.result.author.nickname}*\nJudul: *${e.result.title}*\nDurasi: *${e.result.duration}*\nPenonton: *${e.result.statistic.play_count}*\nSuka: *${e.result.statistic.like_count}\n`
+                await arxzy.sendMessage(m.chat, {
+                    video: {
+                        url: e.result.link
+                    },
+                    caption: ee
+                }, {
+                    quoted: m
+                })
+                break
 
             case 'tiktokaudio':
             case 'ttaudio': {
