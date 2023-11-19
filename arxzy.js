@@ -7280,33 +7280,36 @@ ${readmore}
 *DASHBOARD*
 *— For Bot Charlotte*
 • Nama: Charlotte
-• Pemilik: 15342774249
+• Pemilik: 6281249122429
 • Rilis: 10 Oktober 2023
-• Versi: 09.11.23
-• Fitur: 694
+• Versi: 19.11.23
+• Fitur: 695
 • Api Digunakan:
   × api.lolhuman.xyz
   × api.zeeoneofc.my.id
   × api.zahwazein.xyz
-  × api.xzn.wtf
 • Prefix: Multi
 • Berjalan: Railway.app
 • Total Hit: ${JSON.parse(fs.readFileSync('./src/total-hit-user.json'))[0].hit_cmd} Hit
 • Total Pengguna: ${Object.keys(_user).lengt} Pengguna
+• Sumber MP4: Sota
+• Sumber PTT: Melancholia
 
 *— For Bot User*
 • Status: ${isPremium ? "Premium" : "Dasar"}
 
 *Cara Menambahkan Secara Gratis Ke Grup*
 — https://msha.ke/charlotte_page#about
+— Bisa Juga Ke wa.me/6281249122429
 
-*Sebagian Fitur Baru Tidak Berfungsi*
-*Dikarenakan XZN API Error*
+*Laporkan Masalah Pada Bot*
+*Ke Kontak wa.me/6281249122429*
 
 ${readmore}
-*TERBARU*
-${mono}${prefix}bokep${mono}
+*Diharapkan Anda Bergabung Ke:*
+*https://chat.whatsapp.com/E01trCuEsNM22uL4hB7ktS*
 
+${readmore}
 *UTAMA*
 ${mono}${prefix}botstatus
 ${prefix}buypremium
@@ -7333,6 +7336,7 @@ ${prefix}nhentaisearch
 ${prefix}nhentai
 ${prefix}xnxx
 ${prefix}xnxxdownload
+${prefix}bokep
 ${prefix}18booty
 ${prefix}18armpits
 ${prefix}18anal
@@ -7625,7 +7629,7 @@ ${prefix}telestick${mono}
 
 *PENGUNDUHAN*
 ${mono}${prefix}tiktok
-${prefix}ttdl
+${prefix}tiktok2
 ${prefix}ttaudio
 ${prefix}cocofun
 ${prefix}mediafire

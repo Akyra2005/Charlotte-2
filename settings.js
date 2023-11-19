@@ -10,8 +10,8 @@ const chalk = require('chalk')
 global.lol = 'charlotte' // https://api.lolhuman.xyz
 global.xzn = 'charlotte' // https://xzn.wtf
 /* ~~~~~~~~~ SETTINGS OWNER ~~~~~~~~~ */
-global.numberowner = '15342774249' // Owner Utama
-global.owner = ['15342774249'] // Owner Lainnya
+global.numberowner = '6281249122429' // Owner Utama
+global.owner = ['6281249122429'] // Owner Lainnya
 global.namaowner = 'not available' // Nama Owner
 global.premium = ['15342774249','6281249122429','6285163083750'] // Premium User
 global.nobot = '6285159258830'
