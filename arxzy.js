@@ -2306,7 +2306,7 @@ break
             case 'ttdl':
                 if (!q) return newReply('Format: *.tiktok Tautan*')
                 let e = await fetchJson(`https://api.lolhuman.xyz/api/tiktok?apikey=${lol}&url=${q}`)
-                let ee = ``
+                let ee = `*Video Downloaded By Charlotte*`
                 await arxzy.sendMessage(m.chat, {
                     video: {
                         url: e.result.link
@@ -2320,7 +2320,7 @@ break
             case 'ttdl2':
                 if (!q) return newReply('Format: *.tiktok2 Tautan*')
                 let e3 = await fetchJson(`https://api.lolhuman.xyz/api/tiktok2?apikey=${lol}&url=${q}`)
-                let ee3 = ``
+                let ee3 = `*Video Downloaded By Charlotte*`
                 await arxzy.sendMessage(m.chat, {
                     video: {
                         url: e3.result.link
