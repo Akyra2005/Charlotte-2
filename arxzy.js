@@ -2303,19 +2303,22 @@ newReply(``);
 }
 break
             case 'tiktok':
-            case 'ttdl':
-                if (!q) return newReply('Format: *.tiktok Tautan*')
-                let e = await fetchJson(`https://api.lolhuman.xyz/api/tiktok?apikey=${lol}&url=${q}`)
-                let ee = `*Video Downloaded By Charlotte*`
-                await arxzy.sendMessage(m.chat, {
-                    video: {
-                        url: e.result.link
-                    },
-                    caption: ee
-                }, {
-                    quoted: m
-                })
-                break
+case 'ttdl':
+    if (!q) return newReply('Format: *.tiktok Tautan*')
+    if (typeof q !== 'string' || !URL.isValid(q)) return newReply('Invalid URL')
+
+    let e = await fetchJson(`https://api.lolhuman.xyz/api/tiktok?apikey=${lol}&url=${q}`)
+    let ee = `*Video Downloaded By Charlotte*`
+    await arxzy.sendMessage(m.chat, {
+        video: {
+            url: e.result.link
+        },
+        caption: ee
+    }, {
+        quoted: m
+    })
+    break
+
                 case 'tiktok2':
             case 'ttdl2':
                 if (!q) return newReply('Format: *.tiktok2 Tautan*')
