@@ -2306,7 +2306,7 @@ break
             case 'ttdl':
                 if (!q) return newReply('Format: *.tiktok Tautan*')
                 let e = await fetchJson(`https://api.lolhuman.xyz/api/tiktok?apikey=${lol}&url=${q}`)
-                let ee = `*DOWNLOADER TIKTOK*\n\nPencipta: *${e.result.author.nickname}*\nJudul: *${e.result.title}*\nDurasi: *${e.result.duration}*\nPenonton: *${e.result.statistic.play_count}*\nSuka: *${e.result.statistic.like_count}\n`
+                let ee = ``
                 await arxzy.sendMessage(m.chat, {
                     video: {
                         url: e.result.link
@@ -2320,7 +2320,7 @@ break
             case 'ttdl2':
                 if (!q) return newReply('Format: *.tiktok2 Tautan*')
                 let e3 = await fetchJson(`https://api.lolhuman.xyz/api/tiktok2?apikey=${lol}&url=${q}`)
-                let ee3 = `*DOWNLOADER TIKTOK*\n\nPencipta: *${e3.result.author.nickname}*\nJudul: *${e3.result.title}*\nDurasi: *${e3.result.duration}*\nPenonton: *${e3.result.statistic.play_count}*\nSuka: *${e3.result.statistic.like_count}\n`
+                let ee3 = ``
                 await arxzy.sendMessage(m.chat, {
                     video: {
                         url: e3.result.link
