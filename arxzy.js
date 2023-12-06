@@ -280,6 +280,7 @@ async function jarak(dari, ke) {
           previewType: 'PHOTO',
           thumbnail: fs.readFileSync('./media/quoted.jpg'),
           sourceUrl: global.link,
+          renderLargerThumbnail: true,
         },
       },
       text: teks,
@@ -2907,7 +2908,7 @@ newReply(mess.wait)
 case 'drakorongoing' : {
   newReply(mess.wait)
   const axios = require('axios')
-  const apiUrl = 'https://api.lolhuman.xyz/api/drakorongoing?apikey=charlotte'
+  const apiUrl = 'https://api.lolhuman.xyz/api/drakorongoing?apikey=haikalgans'
 
   axios.get(apiUrl)
     .then(response => {
@@ -3700,7 +3701,7 @@ newReply(mess.wait)
 case 'katabucin' : {
   newReply(mess.wait)
   const axios = require('axios');
-  const apiUrl = 'https://api.lolhuman.xyz/api/random/bucin?apikey=charlotte';
+  const apiUrl = 'https://api.lolhuman.xyz/api/random/bucin?apikey=haikalgans';
 
   axios.get(apiUrl)
     .then((response) => {
@@ -5061,248 +5062,248 @@ newReply(mess.wait)
 case '18trap': {
   if (!m.isGroup) return newReply(mess.group)
   newReply(mess.wait);
-  const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/trap?apikey=charlotte';
+  const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/trap?apikey=haikalgans';
   arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
   break;
 }
 case '18ahegao': {
   if (!m.isGroup) return newReply(mess.group)
   newReply(mess.wait);
-  const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/ahegao?apikey=charlotte';
+  const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/ahegao?apikey=haikalgans';
   arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
   break;
 }
 case '18anal': {
   if (!m.isGroup) return newReply(mess.group)
   newReply(mess.wait);
-  const imageUrl = 'https://api.lolhuman.xyz/api/random2/anal?apikey=charlotte';
+  const imageUrl = 'https://api.lolhuman.xyz/api/random2/anal?apikey=haikalgans';
   arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
  break;
 case '18armpits': {
   if (!m.isGroup) return newReply(mess.group)
   newReply(mess.wait);
-  const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/armpits?apikey=charlotte';
+  const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/armpits?apikey=haikalgans';
   arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18booty': {
   if (!m.isGroup) return newReply(mess.group)
   newReply(mess.wait);
-  const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/booty?apikey=charlotte';
+  const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/booty?apikey=haikalgans';
   arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18feets': {
   if (!m.isGroup) return newReply(mess.group)
   newReply(mess.wait);
-  const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/feets?apikey=charlotte';
+  const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/feets?apikey=haikalgans';
   arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18bigtiddies': {
   if (!m.isGroup) return newReply(mess.group)
   newReply(mess.wait);
-  const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/bigtiddies?apikey=charlotte';
+  const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/bigtiddies?apikey=haikalgans';
   arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18blowjob': {
   if (!m.isGroup) return newReply(mess.group)
   newReply(mess.wait);
-  const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/blowjob?apikey=charlotte';
+  const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/blowjob?apikey=haikalgans';
   arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18blowjob2' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random2/blowjob?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random2/blowjob?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18cum' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random2/cum_jpg?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random2/cum_jpg?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18ecchi' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random2/cum_jpg?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random2/cum_jpg?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18ero' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/ero?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/ero?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18erokemo' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random2/erokemo?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random2/erokemo?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18eroyuri' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random2/eroyuri?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random2/eroyuri?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18feetg' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random2/feetg?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random2/feetg?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18femdom' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random2/femdom?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random2/femdom?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18futanari' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random2/futanari?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random2/futanari?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18hentai' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random2/hentai?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random2/hentai?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18holoero' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random2/holoero?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random2/holoero?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18kuni' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random2/kuni?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random2/kuni?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18lewd' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random2/lewd?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random2/lewd?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18lewdk' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random2/lewdk?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random2/lewdk?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18loli' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random/loli?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random/loli?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case 'elaina': {
   newReply(mess.wait);
-  const imageUrl = 'https://api.lolhuman.xyz/api/random/elaina?apikey=charlotte';
+  const imageUrl = 'https://api.lolhuman.xyz/api/random/elaina?apikey=haikalgans';
   arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
   break;
 }
 case 'shota': {
   newReply(mess.wait);
-  const imageUrl = 'https://api.lolhuman.xyz/api/random/shota?apikey=charlotte';
+  const imageUrl = 'https://api.lolhuman.xyz/api/random/shota?apikey=haikalgans';
   arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
   break;
 }
 case 'shinobu': {
   newReply(mess.wait);
-  const imageUrl = 'https://api.lolhuman.xyz/api/random/sfw/shinobu?apikey=charlotte';
+  const imageUrl = 'https://api.lolhuman.xyz/api/random/sfw/shinobu?apikey=haikalgans';
   arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
   break;
 }
 case '18loli2' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/loli?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/loli?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18milf' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/milf?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/milf?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18neko' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/neko?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/neko?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
 case '18pussy' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random2/pussy?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random2/pussy?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18solog' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random2/solog?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random2/solog?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18tits' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random2/tits?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random2/tits?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case '18waifu' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/waifu?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random/nsfw/waifu?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case 'fanart' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random/art?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random/art?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case 'elf' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random/elf?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random/elf?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
 case 'foxgirl' : {
 if (!m.isGroup) return newReply(mess.group)
 newReply(mess.wait)
-    const imageUrl = 'https://api.lolhuman.xyz/api/random2/fox_girl?apikey=charlotte';         
+    const imageUrl = 'https://api.lolhuman.xyz/api/random2/fox_girl?apikey=haikalgans';         
 arxzy.sendMessage(m.chat, { image: { url: imageUrl } }, { quoted: m });
 }
   break;
@@ -6589,7 +6590,7 @@ return newReply(lidt)
 break
 case 'qc':
 if (!text) return newReply ('Format: *.qc Teks*') 
-let qc = `https://xzn.wtf/api/qc?text=${text}&username=${pushname}&avatar=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsA4yNn3pILbEZv5_QAf0hV-hA_E38lNNa0w&usqp=CAU&apikey=charlotte`
+let qc = `https://xzn.wtf/api/qc?text=${text}&username=${pushname}&avatar=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsA4yNn3pILbEZv5_QAf0hV-hA_E38lNNa0w&usqp=CAU&apikey=haikalgans`
 arxzy.sendImageAsSticker(from, qc, m, { packname: global.packname, author: `𝗗𝗶𝗯𝘂𝗮𝘁 𝗢𝗹𝗲𝗵 𝗕𝗼𝘁 𝗖𝗵𝗮𝗿𝗹𝗼𝘁𝘁𝗲 - 𝟬𝟴𝟱𝟭𝟱𝟵𝟮𝟱𝟴𝟴𝟯𝟬\n𝗣𝗮𝗱𝗮 𝗧𝗮𝗻𝗴𝗴𝗮𝗹 ${tanggal(new Date())}` })
 break
 case 'aidraw':
@@ -6597,7 +6598,7 @@ case 'txt2img':{
 if (!q) return newReply(`*Masuk-kan Prompt-nya*\nFormat: *.txt2img 1girl, with glasses, in beach*`)
 newReply(`*Mohon Tunggu, Sedang Diproses*`)
 try {
-let txt = await getBuffer(`https://xzn.wtf/api/txt2img?text=${text}&apikey=charlotte`)
+let txt = await getBuffer(`https://xzn.wtf/api/txt2img?text=${text}&apikey=haikalgans`)
 await arxzy.sendMessage(m.chat, {image: txt, caption: `*Sukses*`},{quoted: m})
      } catch (e) {
 newReply('*Gagal Membuat Gambar*') 
@@ -6610,7 +6611,7 @@ if (!/image/.test(mime)) return newReply(`Kirim Atau Balas Foto Dengan Perintah 
 newReply('*Mohon Tunggu, Sedang Diproses*')
 let media = await arxzy.downloadAndSaveMediaMessage(quoted)
 let anu = await TelegraPh(media)
-arxzy.sendMessage(m.chat, { image: { url: `https://xzn.wtf/api/aiscene?url=${anu}&apikey=charlotte` }, caption: '*Sukses*'}, { quoted: m})
+arxzy.sendMessage(m.chat, { image: { url: `https://xzn.wtf/api/aiscene?url=${anu}&apikey=haikalgans` }, caption: '*Sukses*'}, { quoted: m})
 }
 break
 case 'toanime': case 'jadianime': {
@@ -6619,7 +6620,7 @@ if (!/image/.test(mime)) return newReply(`Kirim Atau Balas Foto Dengan Perintah 
 newReply('*Mohon Tunggu, Sedang Diproses*')
 let media = await arxzy.downloadAndSaveMediaMessage(quoted)
 let anu = await TelegraPh(media)
-arxzy.sendMessage(m.chat, { image: { url: `https://xzn.wtf/api/toanime?url=${anu}&apikey=charlotte` }, caption: '*Sukses*'}, { quoted: m})
+arxzy.sendMessage(m.chat, { image: { url: `https://xzn.wtf/api/toanime?url=${anu}&apikey=haikalgans` }, caption: '*Sukses*'}, { quoted: m})
 }
 break
 case 'nobg': case 'removebg':{
@@ -6628,7 +6629,7 @@ if (!/image/.test(mime)) return newReply(`Kirim Atau Balas Foto Dengan Perintah 
 newReply(mess.wait)
 let media = await arxzy.downloadAndSaveMediaMessage(quoted)
 let anu = await TelegraPh(media)
-arxzy.sendMessage(m.chat, { image: { url: `https://xzn.wtf/api/removebg?url=${anu}&apikey=charlotte` }, caption: '*Sukses*'}, { quoted: m})
+arxzy.sendMessage(m.chat, { image: { url: `https://xzn.wtf/api/removebg?url=${anu}&apikey=haikalgans` }, caption: '*Sukses*'}, { quoted: m})
 }
 break
 case 'resize': {
@@ -6754,7 +6755,7 @@ if (!/image/.test(mime)) return newReply(`Kirim Atau Balas Foto Dengan Perintah 
 newReply(mess.wait)
 let media = await arxzy.downloadAndSaveMediaMessage(quoted)
 let anu = await TelegraPh(media)
-arxzy.sendMessage(m.chat, { image: { url: `https://api.zeeoneofc.my.id/api/image-effect/instagram2?apikey=charlotte&url=${anu}` }, caption: 'Cie Fotonya Dipost Bot'}, { quoted: m})
+arxzy.sendMessage(m.chat, { image: { url: `https://api.zeeoneofc.my.id/api/image-effect/instagram2?apikey=VE3yXpPC&url=${anu}` }, caption: 'Cie Fotonya Dipost Bot'}, { quoted: m})
 }
 break
 case 'brazzers': case 'triggered': case 'jail': case 'rip': case 'wanted': case 'fire': case 'beautiful':  case 'wasted':{
@@ -6764,15 +6765,15 @@ if (!/image/.test(mime)) return newReply(`Kirim Atau Balas Foto Dengan Perintah 
 newReply(mess.wait)
 const media = await arxzy.downloadAndSaveMediaMessage(quoted)
 const anu = await TelegraPh(media)
-arxzy.sendMessage(m.chat, { image: { url: `https://api.zeeoneofc.my.id/api/image-effect/${command}?apikey=charlotte&url=${anu}` }, caption: 'Done Ayang >///<'}, { quoted: m})
+arxzy.sendMessage(m.chat, { image: { url: `https://api.zeeoneofc.my.id/api/image-effect/${command}?apikey=VE3yXpPC&url=${anu}` }, caption: 'Done Ayang >///<'}, { quoted: m})
 }
 break
 case 'patrick': case 'popoci': case 'sponsbob': case 'kawan-sponsbob': case 'awoawo': case 'chat': case 'dbfly': case 'dino-kuning': case 'doge': case 'gojosatoru': case 'hope-boy': case 'jisoo': case 'kr-robot': case 'kucing': case 'manusia-lidi': case 'menjamet': case 'meow': case 'nicholas': case 'tyni':
-let dino = `https://api.zeeoneofc.my.id/api/telegram-sticker/${command}?apikey=charlotte`
+let dino = `https://api.zeeoneofc.my.id/api/telegram-sticker/${command}?apikey=VE3yXpPC`
 arxzy.sendImageAsSticker(m.chat, dino, m, {packname: `` , author: `𝗗𝗶𝗯𝘂𝗮𝘁 𝗢𝗹𝗲𝗵 𝗕𝗼𝘁 𝗖𝗵𝗮𝗿𝗹𝗼𝘁𝘁𝗲 - 𝟬𝟴𝟱𝟭𝟱𝟵𝟮𝟱𝟴𝟴𝟯𝟬\n𝗣𝗮𝗱𝗮 𝗧𝗮𝗻𝗴𝗴𝗮𝗹 ${tanggal(new Date())}` })
 break
 case 'lonte': 
-let lonte = `https://api.zeeoneofc.my.id/api/telegram-sticker/${command}?apikey=charlotte`
+let lonte = `https://api.zeeoneofc.my.id/api/telegram-sticker/${command}?apikey=VE3yXpPC`
 arxzy.sendImageAsSticker(m.chat, lonte, m, {packname: `` , author: `𝗗𝗶𝗯𝘂𝗮𝘁 𝗢𝗹𝗲𝗵 𝗕𝗼𝘁 𝗖𝗵𝗮𝗿𝗹𝗼𝘁𝘁𝗲 - 𝟬𝟴𝟱𝟭𝟱𝟵𝟮𝟱𝟴𝟴𝟯𝟬\n𝗣𝗮𝗱𝗮 𝗧𝗮𝗻𝗴𝗴𝗮𝗹 ${tanggal(new Date())}` })
 break
 case 'tourl':{
@@ -6803,28 +6804,28 @@ case 'nuliskiri': {
 if (!text) return newReply(`Format: *${prefix+command} Hi, my name is Charlotte*`)
 newReply(mess.wait)
 const tulisan = body.slice(11)
-arxzy.sendMessage(m.chat, {image:{url:`https:\/\/api.zeeoneofc.my.id/api/canvas/${command}?text=${q}&apikey=charlotte`}, caption: "*Sukses*"}, {quoted: m}).catch(async _ => await newReply("*API-KEY Sedang Rusak*"))
+arxzy.sendMessage(m.chat, {image:{url:`https:\/\/api.zeeoneofc.my.id/api/canvas/${command}?text=${q}&apikey=VE3yXpPC`}, caption: "*Sukses*"}, {quoted: m}).catch(async _ => await newReply("*API-KEY Sedang Rusak*"))
 }
 break
 case 'nuliskanan': {
 if (!text) return newReply(`Format: *${prefix+command} Hi, my name is Charlotte*`)
 newReply(mess.wait)
 const tulisan = body.slice(12)
-arxzy.sendMessage(m.chat, {image:{url:`https:\/\/api.zeeoneofc.my.id/api/canvas/${command}?text=${q}&apikey=charlotte`}, caption: "*Sukses*"}, {quoted: m}).catch(async _ => await newReply("*API-KEY Sedang Rusak*"))
+arxzy.sendMessage(m.chat, {image:{url:`https:\/\/api.zeeoneofc.my.id/api/canvas/${command}?text=${q}&apikey=VE3yXpPC`}, caption: "*Sukses*"}, {quoted: m}).catch(async _ => await newReply("*API-KEY Sedang Rusak*"))
 }
 break
 case 'foliokiri': {
 if (!text) return newReply(`Format: *${prefix+command} Hi, my name is Charlotte*`)
 newReply(mess.wait)
 const tulisan = body.slice(11)
-arxzy.sendMessage(m.chat, {image:{url:`https:\/\/api.zeeoneofc.my.id/api/canvas/${command}?text=${q}&apikey=charlotte`}, caption: "*Sukses*"}, {quoted: m}).catch(async _ => await newReply("*API-KEY Sedang Rusak*"))
+arxzy.sendMessage(m.chat, {image:{url:`https:\/\/api.zeeoneofc.my.id/api/canvas/${command}?text=${q}&apikey=VE3yXpPC`}, caption: "*Sukses*"}, {quoted: m}).catch(async _ => await newReply("*API-KEY Sedang Rusak*"))
 }
 break
 case 'foliokanan': {
 if (!text) return newReply(`Format: *${prefix+command} Hi, my name is Charlotte*`)
 newReply(mess.wait)
 const tulisan = body.slice(12)
-arxzy.sendMessage(m.chat, {image:{url:`https:\/\/api.zeeoneofc.my.id/api/canvas/${command}?text=${q}&apikey=charlotte`}, caption: "*Sukses*"}, {quoted: m}).catch(async _ => await newReply("*API-KEY Sedang Rusak*"))
+arxzy.sendMessage(m.chat, {image:{url:`https:\/\/api.zeeoneofc.my.id/api/canvas/${command}?text=${q}&apikey=VE3yXpPC`}, caption: "*Sukses*"}, {quoted: m}).catch(async _ => await newReply("*API-KEY Sedang Rusak*"))
 }
 break
 case 'translate': case 'tr': {
@@ -6855,7 +6856,7 @@ case 'tiktoksearch': case 'tiktoks': case 'ttsearch':{
 if (!text) return newReply(`Format: *${prefix+command} Kata Kunci*\nContoh: *${prefix+command} Hoshino Blue Archive*`)
 newReply(mess.wait)
 try{
-let anu = await fetchJson(`https://xzn.wtf/api/ttsearch?search=${text}&apikey=charlotte`)
+let anu = await fetchJson(`https://xzn.wtf/api/ttsearch?search=${text}&apikey=haikalgans`)
 const capt = anu.title
 const author = anu.author.nickname
 arxzy.sendMessage(m.chat, { video: { url: anu.play}, caption: `💬 Keterangan: *${capt}*\n👤 Pencipta: *${author}*`}, {quoted: m})
@@ -6880,7 +6881,7 @@ mm = args.join(' ')
 m1 = mm.split("|")[0];
 m2 = mm.split("|")[1]; 
 newReply(mess.wait)
-let texproo = await getBuffer(`https://api.zeeoneofc.my.id/api/textpro/${command}?text=${m1}&text2=${m2}&apikey=charlotte`)
+let texproo = await getBuffer(`https://api.zeeoneofc.my.id/api/textpro/${command}?text=${m1}&text2=${m2}&apikey=VE3yXpPC`)
 arxzy.sendMessage(m.chat, {image: texproo, caption: "*Sukses*"}, {quoted: m})
 .catch((err) => {
 newReply(util.format(err))
@@ -6895,7 +6896,7 @@ mm = args.join(' ')
 m1 = mm.split("|")[0];
 m2 = mm.split("|")[1]; 
 newReply(mess.wait)
-let photooxy = await getBuffer(`https://api.zeeoneofc.my.id/api/photooxy/${command}?text=${m1}&text2=${m2}&apikey=charlotte`)
+let photooxy = await getBuffer(`https://api.zeeoneofc.my.id/api/photooxy/${command}?text=${m1}&text2=${m2}&apikey=VE3yXpPC`)
 arxzy.sendMessage(m.chat, {image: photooxy, caption: "*Sukses*"}, {quoted: m})
 .catch((err) => {
 newReply(util.format(err))
@@ -6906,7 +6907,7 @@ case'typography-flower': case'under-flower': case'bevel-text': case'silk-text': 
 {
 if (!text) return newReply(`Format: *${prefix+command} Teks*`)
 newReply(mess.wait)
-let photooxy = await getBuffer(`https://api.zeeoneofc.my.id/api/photooxy/${command}?text=${q}&apikey=charlotte`)
+let photooxy = await getBuffer(`https://api.zeeoneofc.my.id/api/photooxy/${command}?text=${q}&apikey=VE3yXpPC`)
 try{
 await arxzy.sendMessage(m.chat, {image: photooxy, caption: "*Sukses*"}, {quoted: m})
 }  catch (err){
@@ -6917,7 +6918,7 @@ break
 case 'bard':
 try {
 if (!text) return newReply(`Format: *${prefix}${command} Kamu Kenapa?*`)
-let result = await fetchJson(`https://xzn.wtf/api/bard?text=${text}&apikey=charlotte`)
+let result = await fetchJson(`https://xzn.wtf/api/bard?text=${text}&apikey=haikalgans`)
 const gpt = result.content
 newReply(`${gpt}`)
 } catch (err) {
@@ -6928,7 +6929,7 @@ break
 case 'ai': case 'chatgpt':
 try {
 if (!text) return newReply(`Format: *${prefix}${command} Kamu Kenapa?*`)
-let result = await fetchJson(`https://xzn.wtf/api/openai?text=${text}&apikey=charlotte`)
+let result = await fetchJson(`https://xzn.wtf/api/openai?text=${text}&apikey=haikalgans`)
 const gpt = result.result
 newReply(`${gpt}`)
 } catch (err) {
@@ -7033,7 +7034,7 @@ case "1917text":
 case "zombie3d": {
 if (!text) return newReply(`Format: *${prefix+command} Teks*`)
 newReply(mess.wait)
-let ephoto360= await getBuffer(`https://api.zeeoneofc.my.id/api/ephoto360/${command}?text=${q}&apikey=charlotte`)
+let ephoto360= await getBuffer(`https://api.zeeoneofc.my.id/api/ephoto360/${command}?text=${q}&apikey=VE3yXpPC`)
 try{
 await arxzy.sendMessage(m.chat, {image: ephoto360, caption: "*Sukses*"}, {quoted: m})
 } catch (err){
@@ -7053,7 +7054,7 @@ case'ssweb':
 {
 if  (!text) return newReply(`Format: *${prefix+command} URL*`)
 newReply(mess.wait)
-let ss = await getBuffer(`https://xzn.wtf/api/ssweb?type=dekstop&url=${text}&apikey=charlotte`)
+let ss = await getBuffer(`https://xzn.wtf/api/ssweb?type=dekstop&url=${text}&apikey=haikalgans`)
 try{
 await arxzy.sendMessage(m.chat, {image: ss, caption: "*Sukses*"}, {quoted: m})
 } catch (err){
@@ -7065,7 +7066,7 @@ case'ssweb2':
 {
 if  (!text) return newReply(`Format: *${prefix+command} URL*`)
 newReply(mess.wait)
-let ss = await getBuffer(`https://xzn.wtf/api/ssweb?type=phone&url=${text}&apikey=charlotte`)
+let ss = await getBuffer(`https://xzn.wtf/api/ssweb?type=phone&url=${text}&apikey=haikalgans`)
 try{
 await arxzy.sendMessage(m.chat, {image: ss, caption: "*Sukses*"}, {quoted: m})
 } catch (err){
@@ -7081,7 +7082,7 @@ mm = args.join(' ')
 m1 = mm.split("|")[0];
 m2 = mm.split("|")[1]; 
 newReply(mess.wait)
-let logo = await getBuffer(`https://api.zeeoneofc.my.id/api/ephoto360/${command}?text=${m1}&character=${m2}&apikey=charlotte`)
+let logo = await getBuffer(`https://api.zeeoneofc.my.id/api/ephoto360/${command}?text=${m1}&character=${m2}&apikey=VE3yXpPC`)
 arxzy.sendMessage(m.chat, {image: logo, caption: "*Sukses*"}, {quoted: m})
 .catch((err) => {
 newReply(`*Penulisan Teks Salah*`)
@@ -7142,7 +7143,7 @@ m1 = mm.split("|")[0];
 m2 = mm.split("|")[1]; 
 m3 = mm.split("|")[2]; 
 newReply(mess.wait)
-let logo = await getBuffer(`https://api.zeeoneofc.my.id/api/ephoto360/${command}?text=${m1}&text2=${m2}&banner=${m3}&apikey=charlotte`)
+let logo = await getBuffer(`https://api.zeeoneofc.my.id/api/ephoto360/${command}?text=${m1}&text2=${m2}&banner=${m3}&apikey=VE3yXpPC`)
 arxzy.sendMessage(m.chat, {image: logo, caption: "*Sukses*"}, {quoted: m})
 .catch((err) => {
 newReply(`*Terjadi Kesalahan Pada Penulisan*`)

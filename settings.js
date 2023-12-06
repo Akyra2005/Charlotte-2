@@ -7,7 +7,7 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 /* ~~~~~~~~~ WEB API ~~~~~~~~~ */
-global.lol = 'charlotte' // https://api.lolhuman.xyz
+global.lol = 'haikalgans' // https://api.lolhuman.xyz
 global.xzn = 'charlotte' // https://xzn.wtf
 /* ~~~~~~~~~ SETTINGS OWNER ~~~~~~~~~ */
 global.numberowner = '6281249122429' // Owner Utama
@@ -24,7 +24,7 @@ global.autobio = false // AutoBio
 global.autoblok212 = true // AutoBlock Nomer +212
 global.onlyindo = false  // AutoBlock Selain Nomer Indo
 global.packname = '' // Watermark Sticker
-global.author = '𝗗𝗶𝗯𝘂𝗮𝘁 𝗢𝗹𝗲𝗵 𝗕𝗼𝘁 𝗖𝗵𝗮𝗿𝗹𝗼𝘁𝘁𝗲 - 𝟬𝟴𝟱𝟭𝟱𝟵𝟮𝟱𝟴𝟴𝟯𝟬' // Watermark Sticker
+global.author = '𝗗𝗶𝗯𝘂𝗮𝘁 𝗢𝗹𝗲𝗵 𝗕𝗼𝘁 𝗖𝗵𝗮𝗿𝗹𝗼𝘁𝘁𝗲 - 𝟬𝟴𝟮𝟭𝟯𝟱𝟴𝟵𝟯𝟵𝟬𝟮' // Watermark Sticker
 /* ~~~~~~~~~ MESSAGES ~~~~~~~~~ */
 global.mess = {
     done: '*Sukses*',
